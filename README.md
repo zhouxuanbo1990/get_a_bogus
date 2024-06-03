@@ -1,3 +1,3 @@
 # Get_A_bogus
-
-感谢 https://github.com/NearHuiwen/TiktokDouyinCrawler的JS源码
+感谢NearHuiwen/TiktokDouyinCrawler的JS源码
+修改了js方法，通过python文件取得a_bogus
