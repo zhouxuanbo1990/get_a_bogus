@@ -66,7 +66,7 @@ def a_bougus(params):
     with codecs.open('a_bogus.js', 'r', encoding='gb2312') as file:
         js_code = file.read()
     node_runtime = execjs.get(execjs.runtime_names.Node)
-    context = node_runtime.compile(js_code)
+    context = node_runtime.compile(js_code,cwd=r"C:/Users/***/AppData/Roaming/npm/node_modules")
     arg = [ 0, 1, 0, encoded_params, "",headers['user-agent']] 
     a_bougus = context.call('get_a_bogus', arg)
     return a_bougus
